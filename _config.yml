@@ -3,18 +3,18 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: test
-subtitle: Another Hexo blog
+title: tgmerge
+subtitle: "wow, such blog"
 description:
 author: tgmerge
 language: zh-CN
-timezone: Asia/Shanghai
+timezone: 
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://tgmerge.github.io
 root: /
-permalink: :year/:month/:day/:title/
+permalink: :year/:month/:title/
 permalink_defaults:
 
 # Directory
@@ -28,14 +28,14 @@ i18n_dir: :lang
 skip_render: playground/**
 
 # Writing
-new_post_name: :title.md # File name of new posts
+new_post_name: 0-:title.md # File name of new posts
 default_layout: post
 titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
 post_asset_folder: false
-relative_link: false
+relative_link: true
 future: true
 highlight:
   enable: true
@@ -62,10 +62,21 @@ pagination_dir: page
 # Extensions
 ## Plugins: http://hexo.io/plugins/
 ## Themes: http://hexo.io/themes/
-theme: landscape
+theme: next
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type: git
   repo: https://github.com/tgmerge/tgmerge.github.io
+
+# NexT Theme configuration
+social:
+  GitHub: https://github.com/tgmerge
+  WeiBo: http://weibo.com/tgmerge
+
+creative_commons: by-nc-sa
+
+since: 2015
+
+avatar: https://avatars1.githubusercontent.com/u/4354898
