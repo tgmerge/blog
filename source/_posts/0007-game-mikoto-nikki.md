@@ -9,8 +9,8 @@ tags:
 > 但不知为什么前辈有向大家隐瞒的事情……  
 > 到底是什么呢。  
 
-![](http://media.tumblr.com/3753e49b86706d9f3bf1d358878382d6/tumblr_inline_mo3sgnwoat1qz4rgp.png)  
-![](http://media.tumblr.com/539cf4dd35faec29e8bcac718b458af6/tumblr_inline_mo3sgyAEIu1qz4rgp.png)
+![](/assets/0007-01.png)  
+![](/assets/0007-02.png)
 
 其实这个是前一段时间玩的……但今天看到作者[CHARON](http://nekocharon.web.fc2.com/)又出了个游戏在[freem](http://www.freem.ne.jp/)上，作画很精良的样子所以就拉出来了。
 
@@ -22,4 +22,4 @@ tags:
 
 游戏本体 :: [http://www.freem.ne.jp/win/game/5101](http://www.freem.ne.jp/win/game/5101)  
 
-[![](http://media.tumblr.com/8d05e339f05bd13388bdca8148460078/tumblr_inline_mo3t63Rs9J1qz4rgp.jpg)](http://nekocharon.web.fc2.com/)
+[![](/assets/0007-03.jpg)](http://nekocharon.web.fc2.com/)

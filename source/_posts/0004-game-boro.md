@@ -3,17 +3,16 @@ date: 2013-06-08
 tags:
 - game
 ---
-> **ボロ**  
-> *平淡感觉的探索类游戏*  
-> <p />  
-> 机器人ボロ像以前一样在垃圾山里转悠的时候  
-> 遇到了迷路的女孩子……  
+> **ボロ**
+> ——平淡感觉的探索类游戏
+> 机器人ボロ像以前一样在垃圾山里转悠的时候
+> 遇到了迷路的女孩子……
 > 游戏时间30~40分钟。
 
-![](http://media.tumblr.com/3b3f502efe56a51694e38966e5ab787f/tumblr_inline_mo2dsatg1N1qz4rgp.png)  
-![](http://media.tumblr.com/68e380133a6473e554de1455396be36a/tumblr_inline_mo2dsgYqLT1qz4rgp.png)  
-![](http://media.tumblr.com/f02dcbb5c391a44a8bd4af759dff96e3/tumblr_inline_mo2dsmlc6J1qz4rgp.png)  
-![](http://media.tumblr.com/4f27c3f40a25420b71f21c36d193eae9/tumblr_inline_mo2dspQqj61qz4rgp.png)
+![](/assets/0004-01.png)  
+![](/assets/0004-02.png)  
+![](/assets/0004-03.png)  
+![](/assets/0004-04.png)
 
 画面风格很有特色呢，要说的话就是……呆萌呆萌的？配上8bit的音乐很有那个时代的感觉。
 

@@ -15,21 +15,21 @@ tag:
 
 梨奏自称是最喜欢主角的妹妹。おにーちゃん大好きなかわいい妹よ。主角出了车祸，然后她是第一个发现的人，之后每天陪着主角。
 
-![](http://media.tumblr.com/9da0835c871b7f059e39767ff0510ed1/tumblr_inline_mof6bzqvyd1qz4rgp.png)
+![](/assets/0012-01.png)
 
-![](http://media.tumblr.com/d086663a52b8fa10a5cc2116e1444cc8/tumblr_inline_mof6caccal1qz4rgp.png)
+![](/assets/0012-02.png)
 
 其间主角在柜子里发现了两亿日元的支票和印章，还在桌子底下发现了这个。
 
-![](http://media.tumblr.com/1f1537b9345200564f06869519c35a55/tumblr_inline_mof6ctlwCR1qz4rgp.png)  
+![](/assets/0012-03.png)  
 
 某天妹妹和主角谈起了关于钱的事情。大意是主角以前一直在管着妹妹的钱，妹妹觉得也需要一点权利吧，这样……主角就把钱给了妹妹。不知为何，无论选择“把东西都给妹妹”和“只给必要的金额”，支票都会消失……简单来说，就是主角的两亿被拿走了。
 
-![](http://media.tumblr.com/068f044b9cabeabaf3725ed370493c12/tumblr_inline_mof6e1AyBN1qz4rgp.png)
+![](/assets/0012-04.png)
 
 之后就是喜闻乐见的剧情，妹妹再也没出现过。然后主角偶然得知自己父母双亡但有一大笔遗产，准备一个人孤独生活的事实orz几个月之后主角偶然在街上遇到了妹妹。
 
-![](http://media.tumblr.com/04e1d943f5e7e4659b09ea8f167de497/tumblr_inline_mof6euFJfh1qz4rgp.png)
+![](/assets/0012-05.png)
 
 > 啥呀。老娘才不是谁的妹妹呢噗哈哈哈哈。  
 > 只是看上你的遗产才装出来的啊噗哈哈哈哈。  
@@ -37,7 +37,7 @@ tag:
  
 差不多就是这种剧情。选择“想去死”……
   
-![](http://media.tumblr.com/f9e0622f1c49195ab5c513ca53e54cc8/tumblr_inline_mof6g8PWko1qz4rgp.png)
+![](/assets/0012-06.png)
 
 > “那就去死一死吧？”  
 > 但听见这句话的我把梨奏推向了飞驰而过的车子。  
@@ -51,7 +51,7 @@ tag:
 
 选择“不想死”……  
 
-![](http://media.tumblr.com/a3c7adc2abe3cd1a084cdfbf767e69a9/tumblr_inline_mof6jppvBW1qz4rgp.png)
+![](/assets/0012-07.png)
  
 > 到我的手里就是我的东西了。怎么可能还回去。  
 > 我也是因为父亲欠的债而过着很不得了的日子呢。  

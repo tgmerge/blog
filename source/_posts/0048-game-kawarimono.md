@@ -8,9 +8,9 @@ tags:
 > 虽然没有选项，但结局有三个。
 > 并不会因为游戏回数、点击特定地点、存档读档等造成路线分歧。
 
-![](http://media.tumblr.com/31cd5d98fcd88a5e7f36191eddb0d790/tumblr_inline_mwr9s5BvkC1s1w710.png)
+![](/assets/0048-01.png)
 
-![](http://media.tumblr.com/9109199e053ed89df2d4ef5f6902b2d0/tumblr_inline_mwr9wxHumq1s1w710.png)
+![](/assets/0048-02.png)
 
 大概是根据看剧情的快慢决定结局的吧→（一周目）情节稍微有点猎奇→（二周目）卧槽还真是这样？
 

@@ -11,25 +11,25 @@ tags:
 
 这是个关于最喜欢主人的猫的故事，虽然多数时间里操作的是猫以外的角色。
 
-![](http://media.tumblr.com/aef1c90792a177383479aa5c334f73da/tumblr_inline_mo7ve8bHc61qz4rgp.png)
+![](/assets/0010-01.png)
 
 男主角(?)的身世算是个挺重要的设定来着？
 
-![](http://media.tumblr.com/b7fd1366d1bff359217055e92fc47ebe/tumblr_inline_mo7vgbs18w1qz4rgp.png)
+![](/assets/0010-02.png)
 
 游戏一开始和中段有点梦日记的感觉，结果到了后半段的现实(?)已经凌乱了……
 
-![](http://media.tumblr.com/f8986417c4b984d7c983fa83ac6b1bc4/tumblr_inline_mo7vi0ilv21qz4rgp.png)
+![](/assets/0010-03.png)
   
 面包店，感觉很香？
 
-![](http://media.tumblr.com/9c350a33f838e467fba42356b6dfea41/tumblr_inline_mo7vltyhS61qz4rgp.png)
+![](/assets/0010-04.png)
 
 总结一下就是猫好萌！虽然猫死掉了！
 
 一开始的房间是猫在临死之际想象出来的，和主角一起生活着的理想的家。婆婆是谁也容易理解了。中间一大段比较混乱……大概是切换到主角的意识？最后回到现实(?)世界把故事交代完，最后猫酱就悲催地死掉了……
 
-![](http://media.tumblr.com/cbe818afd85abdb3cb95e409eac6471b/tumblr_inline_mo7w9gQKt71qz4rgp.png)
+![](/assets/0010-05.png)
 
 妹子有点萌，不过也算悲剧角色。  
 

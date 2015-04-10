@@ -11,19 +11,19 @@ tags:
 
 游戏制作[影～ombre～](http://com.nicovideo.jp/community/co2193414)，[freem上的页面在这里](http://www.freem.ne.jp/win/game/5901)。
 
-![](http://media.tumblr.com/40f557473d123e01266785b25783a046/tumblr_inline_mx4dg8kVFZ1s1w710.png)
+![](/assets/0050-01.png)
 
-![](http://media.tumblr.com/dc40329eb426c60c4578e7cfefa41d22/tumblr_inline_mx4dggCoZ61s1w710.png)
+![](/assets/0050-02.png)
 
-![](http://media.tumblr.com/e721651ffdb3a8a83e439868bb2a2380/tumblr_inline_mx4dgpv9PQ1s1w710.png)
+![](/assets/0050-03.png)
 
 #### 简单来说呢
 
 发现妹子不见了的主角就在屋子里各种找。中间看到有妹子的幻象（？）出现的时候总觉得是“幽灵”这样的发展……然后在浴室和仓库会有一点恐怖情节
 
-![](http://media.tumblr.com/1c26a628ab790ea230cd627400ae2dc2/tumblr_inline_mx4dl5vWrd1s1w710.png)
+![](/assets/0050-04.png)
 
-![](http://media.tumblr.com/8409336b36cbce0fe83508ef16b92da1/tumblr_inline_mx4dldqTB51s1w710.png)  
+![](/assets/0050-05.png)  
 
 除此之外大部分的事件都是简单易懂的秀恩爱回忆和日记情节之类（日记似乎是有梗的，有时间回去再看一次），倒没什么特别新颖的……
 
@@ -33,11 +33,11 @@ tags:
 
 主角发现了“她”在夏祭拍的照片
 
-![](http://media.tumblr.com/6c488a06698f8e52fd4b0b892a0ba2a0/tumblr_inline_mx4dqyIG511s1w710.png)
+![](/assets/0050-06.png)
 
 但接下来又发现了这本相册……
 
-![](http://media.tumblr.com/effcfcea5a7203c023bd449cd44dd791/tumblr_inline_mx4drgTjEh1s1w710.png)
+![](/assets/0050-07.png)
 
 后面的把前面的挡住了看不清楚，但前面的照片怎么看都是本人不知情的时候拍的<del>说白了就是盗摄</del>，这时候主角似乎想起了什么事情
 
@@ -55,11 +55,11 @@ tags:
 
 分歧点还挺坑的，总之选择一个选项后找到了那个“别的房间”的钥匙。然后发现了
 
-![](http://media.tumblr.com/29b4375626d518c7c9115c4f81ca9710/tumblr_inline_mx4dy5lqvf1s1w710.png)
+![](/assets/0050-08.png)
 
 之后主角就喜闻乐见地想起是自己杀掉了妹子，然后跑出门口坏掉了……
 
-![](http://media.tumblr.com/2c8ba6d941ffea89b73827ee5ad2b09b/tumblr_inline_mx4dyoYVHS1s1w710.png)
+![](/assets/0050-09.png)
 
 后面的剧情就很简单咯。路过的警察发现主角一手大姨妈问话后事情就败露了，主角是普通的跟踪诱拐杀人犯'\_>' 人渣又少了一个真是可喜可贺'\_>'
 

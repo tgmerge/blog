@@ -10,11 +10,11 @@ tags:
 
 游戏作者是[DeepWhite](https://twitter.com/natume0121)，[freem的介绍在这里](http://www.freem.ne.jp/win/game/6029)。
 
-![](https://31.media.tumblr.com/1856da35b849c90d83e4a9c0f600925d/tumblr_inline_myhelunNXH1s1w710.png)
+![](/assets/0061-01.png)
 
-![](https://31.media.tumblr.com/b9a5c0a64aa6fb8029d23ba70306ea31/tumblr_inline_myhem7hBur1s1w710.png)
+![](/assets/0061-02.png)
 
-![](https://31.media.tumblr.com/09542471aab411a451fdb3a8c5d99b4a/tumblr_inline_myhemtGgRZ1s1w710.png)
+![](/assets/0061-03.png)
 
 老实说并不是很有意思的游戏，没什么剧情的解谜逃出而已。谜题还很没有特色。不过在圣诞节当天还是前一天来着发布在freem上，时机正好结果还挺火的……当天下载量就那么高，11区的家伙是有多寂寞……
 
@@ -22,6 +22,6 @@ tags:
 
 下面这个画面只出现了几帧
 
-![](https://31.media.tumblr.com/e6122b603c8aed492383831d694cc879/tumblr_inline_myher18jFY1s1w710.png)
+![](/assets/0061-04.png)
 
 大概是作者的心声？“圣诞节那天没有妹子的话人偶也可以，你怎么知道它不会变成妹子来见我呢”才是这游戏的主旨吗。也太辛酸了。

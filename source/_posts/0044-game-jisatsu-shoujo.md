@@ -23,7 +23,7 @@ tags:
 好想死！让我死掉吧！  
 这种事情……已经忍不下去了 T T
 
-![](http://media.tumblr.com/f928871d2ff034119ec4622bdda9f09d/tumblr_inline_mwf9g7eSJw1s1w710.png)
+![](/assets/0044-01.png)
 
 ##### BAD END 2 罰ゲーム / 惩罚游戏
 
@@ -34,7 +34,7 @@ tags:
 谢谢你和我玩游戏了！还要再来玩哦！  
 2333333333333333333333
 
-![](http://media.tumblr.com/80cf13845c2aac556bd5c4fe614ff240/tumblr_inline_mwf9gkcgXG1s1w710.png)
+![](/assets/0044-02.png)
 
 关于雪子= =这也是个有剧情的角色……
 
@@ -44,7 +44,7 @@ tags:
 
 > 那就吃你吧。
 
-![](http://media.tumblr.com/81bba1145f91ea0b87999f716e1a56fe/tumblr_inline_mwf9gwiKGr1s1w710.png)
+![](/assets/0044-03.png)
 
 说起来这天是主角的生日？
 
@@ -56,7 +56,7 @@ tags:
 （啥啥啥的中间没截图而且档被盖了）  
 所以你也和我一起在这里呆着吧
 
-![](http://media.tumblr.com/d2d3d2f6df8222f313af057e2ca8fc47/tumblr_inline_mwf9i8cIqu1s1w710.png)
+![](/assets/0044-04.png)
 
 这段剧情成功了的话，会拿到“被欺负”的回忆。明明是百合结局而且很赞！有萌妹子！有两个！姿势还很糟糕！
 
@@ -68,7 +68,7 @@ tags:
 ... ...  
 ... ...
 
-![](http://media.tumblr.com/844f7719d3052b84515cd66c0763e9c8/tumblr_inline_mwf9kkHUUO1s1w710.png)
+![](/assets/0044-05.png)
 
 BE基本都没什么存在感……
 
@@ -95,7 +95,7 @@ BE基本都没什么存在感……
 从那个地方出来也不能活着回去的……  
 ……
 
-![](http://media.tumblr.com/00221804a122db4da698cd5a89d610a9/tumblr_inline_mwf9l8kAIK1s1w710.png)
+![](/assets/0044-06.png)
 
 反正猜都猜到了，下一个。
 
@@ -109,14 +109,14 @@ BE基本都没什么存在感……
 
 ↓“自杀”这个回忆是在一个选项中选择“不后悔自杀了”拿到的，SAN值狂减。
 
-![](http://media.tumblr.com/540a99f2719a685b266aa080655380b5/tumblr_inline_mwf9mbqa6m1s1w710.png)
+![](/assets/0044-07.png)
 
 > 终于出来了……但不知为什么好累  
 应该算是结束了吧？  
 休息一下也没问题吧……  
 那么现在……晚安咯
 
-![](http://media.tumblr.com/e4ffa010d6ce2e2b9941c3ae1b5b1e75/tumblr_inline_mwf9n6LSyO1s1w710.png)
+![](/assets/0044-08.png)
 
 也早就猜到了好吗！嘛算是中规中矩咯，作者说虽然他也很喜欢GE但这个才是最中意的结局。感觉其实是True End。
 
@@ -152,7 +152,7 @@ BE基本都没什么存在感……
 啊，原来我……  
 我回来了啊。
 
-![](http://media.tumblr.com/42dee37f7e000f6c9e940ae18d2573d8/tumblr_inline_mwf9pfCKJS1s1w710.png)
+![](/assets/0044-09.png)
 
 老套的骗眼泪剧情有什么不好的orz
 
@@ -164,10 +164,10 @@ BE基本都没什么存在感……
 
 CG不看个够就不好了……附送的图
 
-![](http://media.tumblr.com/f67247bd7e4c2ac392d745b41abb61c6/tumblr_inline_mwf9qsAmzX1s1w710.png)
+![](/assets/0044-10.png)
 
-![](http://media.tumblr.com/e3db5ccc082e2745c65076de2ebb532e/tumblr_inline_mwf9tcb1jd1s1w710.png)
+![](/assets/0044-11.png)
 
-![](http://media.tumblr.com/d3d2a0e8c2418fa0ea331b1c75c57855/tumblr_inline_mwf9v19AhZ1s1w710.png)
+![](/assets/0044-12.png)
 
-![](http://media.tumblr.com/fa364474ac1388732b31d01effc8eadd/tumblr_inline_mwf9x2qcgp1s1w710.png)
+![](/assets/0044-13.png)

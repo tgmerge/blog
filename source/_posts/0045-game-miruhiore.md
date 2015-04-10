@@ -7,7 +7,7 @@ tags:
 
 那么是这次的事情。前段时间[有ID叫「黒水晶」的人在blog中说](http://bsdowner.blog.fc2.com/blog-entry-5.html)，他做了个关于『みっくすおれ』那位黄毛妹子りかな故事的番外篇游戏『みるひおれ』。
 
-![](http://media.tumblr.com/3833925806284ea95a1f5cc94262dec5/tumblr_inline_mwg214ZQtu1s1w710.png)
+![](/assets/0045-01.png)
 
 > CHARON的『みっくすおれ』的二次创作品。  
 差不多是“原作者公认非正式番外篇”这样的东西吧。  

@@ -11,13 +11,13 @@ tags:
 
 选择“桌上放着的是咖啡饮料”的话，遇到的是あやの（绫乃）。顺便一提[カフェオーレ](http://cafe-ole.jp/)才是这类饮料中最正经的。
 
-![](http://media.tumblr.com/fce688c67126238fa7341c5660fc4c8f/tumblr_inline_mppsmj2S7Y1qz4rgp.png)
+![](/assets/0015-01.png)
 
 绫乃表示主角是同校足球部的学长，自己是社团经理……不对，是后辈。就是这么说的。主角则是被杀人魔刺杀未遂才失忆的。绫乃对主角好感度似乎蛮高的样子。但剧情中间出现了几次“要不要看裙底”之类的选项，在柜子里还发现了H照片……
 
-![](http://media.tumblr.com/70505d53eb75a545a3d592e1430f05b0/tumblr_inline_mppsncbYn81qz4rgp.png)  
+![](/assets/0015-02.png)  
 
-![](http://media.tumblr.com/7ad10c2c9557d1c1c7f7351605d58c63/tumblr_inline_mppsnjWQYu1qz4rgp.png)
+![](/assets/0015-03.png)
 
 主角和绫乃散步到学校……
 
@@ -29,13 +29,13 @@ tags:
 > 被绫乃抱住了。 
 > ——前辈哪，关于为什么会丧失记忆……差点死掉，原因你真的不知道吗？
 
-![](http://media.tumblr.com/e0bf22a3efa9e2815bd5d7ae5413a620/tumblr_inline_mppsooZwdj1qz4rgp.png)  
+![](/assets/0015-04.png)  
 
 > ——前辈可是像蟑螂一样烦人的人渣呢。
 > ——我当时可是**确实**用刀捅了心脏呢。用这双手。确实捅了进去的。
 > ——为什么没有死掉呢。
 
-![](http://media.tumblr.com/8ba2994633b63e30df6453f26aeceec8/tumblr_inline_mppspdurjf1qz4rgp.png)
+![](/assets/0015-05.png)
 
 果然哪个あやの都是一样的风格…… 
 
@@ -46,9 +46,9 @@ tags:
 > ——学长看起来是天才实际上却是这样的货色呢。
 > ——人家都差点去自杀了。但是不行。在这里解决掉你才对！ 
 
-![](http://media.tumblr.com/b0b5631e080a71895f67a5a0327f3b2d/tumblr_inline_mppsqbW0141qz4rgp.png)  
+![](/assets/0015-06.png)  
 
-![](http://media.tumblr.com/8a5f9543ac0ebb3fc60ffe6bfc54ea35/tumblr_inline_mppsrwzfGU1qz4rgp.png)
+![](/assets/0015-07.png)
 
 选择“攻击绫乃”……
 
@@ -56,7 +56,7 @@ tags:
 
 主角在出院的日子看到了失忆的绫乃躺在病床上。
 
-![](http://media.tumblr.com/afe2ad7d8ec692bcf91d8cddd1a315c0/tumblr_inline_mppssiXbGV1qz4rgp.png)
+![](/assets/0015-08.png)
 
 **BAD END 「记忆丧失」**  
 
@@ -68,11 +68,11 @@ tags:
 
 主角就这么死了。可喜可贺。
 
-![](http://media.tumblr.com/b5d405a3fbf8cb6029016de641a6ae7c/tumblr_inline_mppstifBMh1qz4rgp.png)
+![](/assets/0015-09.png)
 
 临死之际主角还想着“果然我还是有点喜欢绫乃的呢如果和她普通地相遇可能会交往的吧普通地生活普通地约会两个人该多幸福啊唉玩脱了”这样的东西……不愧是人渣。
  
-![](http://media.tumblr.com/640d9dc2299654a74893fcc6fcca5fa1/tumblr_inline_mppstrhO9F1qz4rgp.png)
+![](/assets/0015-10.png)
 
 **TRUE END 「没有结果的恋爱」**
 
@@ -82,6 +82,6 @@ tags:
 
 最后来张黑化女主合影。
  
-![](http://media.tumblr.com/bfd02f1eb69b0c11c02cb5a31c12306d/tumblr_inline_mppsu1fE9v1qz4rgp.png)
+![](/assets/0015-11.png)
 
-![](http://media.tumblr.com/f97ad8c9f2955a99b8060d406a618e79/tumblr_inline_mppsufzJRq1qz4rgp.png)
+![](/assets/0015-12.png)

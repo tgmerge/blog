@@ -15,4 +15,4 @@ tags:
 
 待机画面一张，虽说缩成了500px……
 
-![](http://media.tumblr.com/1a61169ab987041b7e2a9a56b9446e96/tumblr_inline_mu20fcM8Ao1s1w710.png)
+![](/assets/0029-01.png)

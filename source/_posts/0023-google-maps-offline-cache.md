@@ -8,8 +8,8 @@ tags:
  * 先把想缓存的地图区域显示在屏幕上，然后在搜索框中输入“Ok maps”，或者说出这句话，这个区域就会被缓存下来；
  * 在Google Now中搜索相应地点，在建议的搜索列表中就会出现“缓存该区域”的选项。
 
-![](http://media.tumblr.com/96b145828e5cdf1a19a809295a71ad3f/tumblr_inline_mspshgdBXg1qz4rgp.png)
+![](/assets/0023-01.png)
 
 对了，似乎最新的版本添加了比较正常一点的预缓存方式：将需要缓存的区域显示在地图上，点击搜索框后，在列表最下端有“将此区域设为可离线显示”这一项。
 
-![](http://media.tumblr.com/61ec96dc888f41e0fd8f1042c985d371/tumblr_inline_mspstoF1HP1qz4rgp.png)
+![](/assets/0023-02.png)

@@ -4,14 +4,16 @@ tags:
 - game
 ---
 > **雨**  
-> 雨和少女
+> ——雨和少女
 > 在雨夜和不可思议的少女相遇了。
 > 15分钟长度的短剧，没有分歧。
 > 大概是恋爱故事。
 
-![](http://media.tumblr.com/24da2b8544c7d1fcc6aee438546fa7c7/tumblr_inline_mxkolru4ME1s1w710.png)  
-![](http://media.tumblr.com/c229e0a1d30223f3d0bca50f6cf48faa/tumblr_inline_mxkom1T6Oq1s1w710.png)  
-![](http://media.tumblr.com/79f9b756a1a173554f4ad1087f0ec0b1/tumblr_inline_mxkopmTYN31s1w710.png)
+![](/assets/0056-01.png)
+
+![](/assets/0056-02.png)
+
+![](/assets/0056-03.png)
 
 [freem上的介绍页在这里](http://www.freem.ne.jp/win/game/5940)。
 

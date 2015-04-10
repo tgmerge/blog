@@ -28,6 +28,6 @@ Clearly相当方便，但多种语言混排的时候，只用`PT Serif, Hiragino
 
 这样的话假名部分会显示成Meiryo UI，中文部分则是Hiragino Sans GB W3。虽然只有英文是衬线体的PT Serif但效果还不错。
 
-![](https://31.media.tumblr.com/85cc4194180bce28a47498e44413e3f6/tumblr_inline_mza8m6EomQ1s1w710.png)
+![](/assets/0064-01.png)
 
-![](https://31.media.tumblr.com/a4f80ce1ea6fc13959bf168dcaa3512b/tumblr_inline_mza8tiAm461s1w710.png)
+![](/assets/0064-02.png)

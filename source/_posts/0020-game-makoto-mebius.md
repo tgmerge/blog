@@ -11,27 +11,25 @@ tags:
 > 那天，她突然死掉了。
 > 向莫比乌斯先生求助的话，就能救真琴了吧…？
 
-![](http://media.tumblr.com/a3e20e8146d42840081790c524e26a26/tumblr_inline_msbxn4iOLc1qz4rgp.png)  
-这次也是[CHARON](http://nekocharon.web.fc2.com/)的游戏
-
-顺便一提CHARON的头像超像古手梨花……脑子里想的事情大概也差不多。
+![](/assets/0020-01.png)  
+这次也是[CHARON](http://nekocharon.web.fc2.com/)的游戏。顺便一提CHARON的头像超像古手梨花……脑子里想的事情大概也差不多。
 
 #### 以下正文含有剧透
 
 > 呐，你知道莫比乌斯先生吗？  
 > 过去是唯一的。就算是重来也一样。  
 
-![](http://media.tumblr.com/cabb6fc786ca0572795b3bf26de629bb/tumblr_inline_msbxnsb0uA1qz4rgp.png)
+![](/assets/0020-02.png)
 
 > 真琴「我是不是死掉比较好呢？」
 > 只是普通的同学而已，但这么突然地对我说。
 > 那天晚上，真琴死了。
 
-![](http://media.tumblr.com/367a13aac48ec09c1d046d4897a42e4d/tumblr_inline_msbxo7GXgq1qz4rgp.png)
+![](/assets/0020-03.png)
 
 算是普通的展开。主角「和太郎」还蛮受的……不对，倒不如说会有主角这样的妹子也说不定。
 
-![](http://media.tumblr.com/052d5d4a9dcd926607b6e20708d086a4/tumblr_inline_msbxokIyDs1qz4rgp.png)
+![](/assets/0020-04.png)
 
 但主角被叫做みきお的女生搭话了。みきお应该怎么叫来着……树生？太奇怪了，还是叫みきお吧。
 
@@ -50,7 +48,7 @@ tags:
 
 #### 2013/06/23
 
-![](http://media.tumblr.com/eb07dd8c03e53ef1abd0ef62e18de894/tumblr_inline_msbxp5IuJ21qz4rgp.png)
+![](/assets/0020-05.png)
 
 意识到的时候，和太郎已经身处夜晚的真琴家门口。
 
@@ -68,7 +66,7 @@ tags:
 
 把主角送进这里的みきお大概在期待这个Ending？
 
-![](http://media.tumblr.com/a671b638ae7c82d7b8fcad9b4794593a/tumblr_inline_msby1sGxq81qz4rgp.png)
+![](/assets/0020-06.png)
 
 * TRUE END 同班同学
 

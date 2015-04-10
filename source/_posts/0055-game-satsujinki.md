@@ -10,11 +10,11 @@ tags:
 
 [freem上的介绍页在这里](http://www.freem.ne.jp/win/game/5913)。作者[春紫](http://harumurasaki.jimdo.com/)似乎不希望把截图放出来不过……
 
-![](http://media.tumblr.com/50308bb121bc9578fcd0012ae58831e0/tumblr_inline_mxl200OjMO1s1w710.png)
+![](/assets/0055-01.png)
 
-![](http://media.tumblr.com/0d9a71d4346de78710a2b925bbd46799/tumblr_inline_mxl169YrJC1s1w710.png)
+![](/assets/0055-02.png)
 
-![](http://media.tumblr.com/2ee199d72d940f81ba92ad54bd9ccc73/tumblr_inline_mxl16k7sGj1s1w710.png)
+![](/assets/0055-03.png)
 
 陪前辈喝酒的主角把手机落在了她家，之后路过的普通杀人狂魔友情出演的恋爱故事。大体上各种被抓到被杀的话就是Bad end，比如发现前辈便当后自己也便当了啊躲进柜子开门杀啊破墙失败啊战斗失败啊什么的。
 

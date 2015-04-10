@@ -8,7 +8,7 @@ tags:
 
 制作方网站是[Crazy I Scream](http://crazyiscream.com/dl.html)，上面也有下载。
 
-![](http://media.tumblr.com/0392438ac6ce42cf42ea2a377a854f5c/tumblr_inline_mxfgesxOoS1s1w710.jpg)
+![](/assets/0054-01.jpg)
 
 制作相当精良，剧情蛮长的，收集要素也有很多，<del>更重要的是</del>有类似Galgame的部分。
 
@@ -16,21 +16,21 @@ tags:
 
 因为是长篇游戏没截图只好放几张官方网站的图了……
 
-![](http://media.tumblr.com/aea8c4d101ec46021e89fb54e3e086ab/tumblr_inline_mxfgs32HfF1s1w710.jpg)
+![](/assets/0054-02.jpg)
 
 剧情发展到后面也会出现人形的メナス（这BOSS我怎么没打过）
 
-![](http://media.tumblr.com/2cdcee916f6a71ae2a4bc9784c2e27e7/tumblr_inline_mxfgsssZ6d1s1w710.jpg)
+![](/assets/0054-03.jpg)
 
 Gal的部分是基本的在场景间移动、提升战斗能力和好感度的设定。
 
-![](http://media.tumblr.com/9decb481a83d4db3b7e1500b0ed8aa8f/tumblr_inline_mxfguzDhDo1s1w710.jpg)
+![](/assets/0054-04.jpg)
 
 <del>天哪噜这妹子是真BOSS啊喂！砸了那么多好感度进去主角的嘴炮威力还是不够啊喂！两个满身大姨妈的Dead End但忘记截图了！</del>
 
 CG之类收集要素也有不少。
 
-![](http://media.tumblr.com/214e3dd4c2b38bc90fb1bc17aa053de8/tumblr_inline_mxfh0g6A7f1s1w710.jpg)
+![](/assets/0054-05.jpg)
 
 这个NextPhase似乎已经是同名游戏的第五还是第六作了来着，而且还要继续出？游戏流程有点长所以到现在只出了两个End，总共好像有八个来着。另外据网站说NextPhase收录了前面各作的剧情内容，剧情路线四条以上，这样一看收集就更可怕了……
 
