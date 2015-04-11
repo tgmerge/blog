@@ -1,5 +1,5 @@
 title: "Google Photo Sphere"
-date: 2013-10-25 16:49:00
+date: "2013-10-25 16:49:00"
 tags:
 - daily
 ---

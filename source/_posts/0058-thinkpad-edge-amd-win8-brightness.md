@@ -1,5 +1,5 @@
 title: "Thinkpad Edge，Win8，AMD显卡，屏幕亮度调节问题"
-date: 2013-12-12 22:35:00
+date: "2013-12-12 22:35:00"
 tags:
 - daily
 ---

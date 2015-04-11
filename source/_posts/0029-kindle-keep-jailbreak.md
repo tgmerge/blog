@@ -1,5 +1,5 @@
 title: "kindle 5.3.5 以上版本保留jailbreak最省事的方法"
-date: 2013-10-03 2:15:00
+date: "2013-10-03 2:15:00"
 tags:
 - daily
 ---

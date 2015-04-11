@@ -1,5 +1,5 @@
 title: 在tumblr上传文件供主题使用的方法
-date: 2013-06-08
+date: "2013-06-08"
 tags:
 - tumblr
 ---

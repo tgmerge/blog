@@ -1,5 +1,5 @@
 title: "tumblr的文章摘要和Read More..."
-date: 2013-12-10 13:20:00
+date: "2013-12-10 13:20:00"
 tags:
 - daily
 ---

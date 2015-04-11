@@ -1,5 +1,5 @@
 title: "Thinkpad E420 HD6630M显卡在Win8下的正确驱动配置"
-date: 2013-08-04 01:41:00
+date: "2013-08-04 1:41:00"
 tags:
 - daily
 ---

@@ -1,5 +1,5 @@
 title: "gae, python :: Part I"
-date: 2013-12-05 17:31:00
+date: "2013-12-05 17:31:00"
 tags:
 - daily
 ---

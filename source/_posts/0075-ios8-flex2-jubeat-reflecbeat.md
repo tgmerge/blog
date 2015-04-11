@@ -1,5 +1,5 @@
 title: "iOS 8.1.2 + Flex 2 beta + jubeat / reflecbeat"
-date: 2015-01-20 01:16:00
+date: "2015-01-20 1:16:00
 tags:
 - daily
 ---

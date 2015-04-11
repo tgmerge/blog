@@ -1,5 +1,5 @@
 title: "Windows, python, cmd, encoding, _(:3 / L)_"
-date: 2014-12-02 22:42:00
+date: "2014-12-02 22:42:00"
 tags:
 - daily
 ---
