@@ -1,7 +1,7 @@
 title: "tumblr的文章摘要和Read More..."
 date: "2013-12-10 13:20:00"
 tags:
-- daily
+- tumblr
 ---
 在Text post中间插入`[[MORE]]`的话，这篇post在首页上就会显示为带有“Read More...”标记的摘要，不会因为太长而占用太多空间了。另外，想要自定义Read More链接的样式的话，可以在HTML Theme中紧接着`{Body}`下面添加或者修改
 

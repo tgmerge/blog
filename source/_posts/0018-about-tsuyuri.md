@@ -1,7 +1,7 @@
 title: 「つゆり」→「栗花落」→「五月七日」
 date: "2013-07-17 11:31:00"
 tags:
-- daily
+- dairy
 ---
 关于[中二病](http://zh.wikipedia.org/zh-cn/%E4%B8%AD%E4%BA%8C%E7%97%85%E4%B9%9F%E6%83%B3%E8%AB%87%E6%88%80%E6%84%9B%EF%BC%81)里学姐的名字「五月七日　くみん」里的「五月七日」这个奇怪的姓氏还是有来历的。以下出自[日本人姓名——日期篇](http://www.akatsukinishisu.net/kanji/hizuke.html)。
 

@@ -1,9 +1,9 @@
 title: "上传到GAE"
 date: "2013-12-03 18:08:00"
 tags:
-- daily
+- GAE
 ---
-试用Google App Eppengine……先把Deploy的时候遇到的问题记下来。
+试用Google App Engine……先把Deploy的时候遇到的问题记下来。
 
 [上传使用的appcfg.py命令行参考](https://developers.google.com/appengine/docs/python/tools/uploadinganapp?hl=zh-cn)和[英文版本（有oauth等更多内容）](https://developers.google.com/appengine/docs/python/tools/uploadinganapp)。
 

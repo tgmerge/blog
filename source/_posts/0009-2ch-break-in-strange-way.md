@@ -1,7 +1,8 @@
 title: 2ch上的梗，这位被妹子以这种方式拒绝了
 date: "2013-06-10 16:03:00"
 tags:
-- daily
+- dairy
+- repost
 ---
 俺: お昼食べた？
 

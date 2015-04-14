@@ -1,7 +1,7 @@
 title: "kindle 5.3.5 以上版本保留jailbreak最省事的方法"
 date: "2013-10-03 2:15:00"
 tags:
-- daily
+- kindle
 ---
 [kindle paperwhite越狱的安装包](http://www.mobileread.com/forums/showthread.php?t=198446)只支持到5.3.5。  
 升级到以上版本的话，虽然越狱会保留但[开发者证书](http://www.mobileread.com/forums/showthread.php?t=152294)会丢失，没有办法使用第三方组件……

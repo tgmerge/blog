@@ -1,7 +1,8 @@
 title: "Windows, python, cmd, encoding, _(:3 / L)_"
 date: "2014-12-02 22:42:00"
 tags:
-- daily
+- Python
+- Windows
 ---
 就不说windows和python编码的那一大坨问题了，只大概记一下怎么科学地鸟枪法码代码。
 

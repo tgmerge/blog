@@ -1,7 +1,8 @@
 title: "Ingress全成就解锁，After Story第一篇完结"
 date: "2013-10-13 14:14:00"
 tags:
-- daily
+- dairy
+- Ingress
 ---
 
 ![](/assets/0035-01.png)

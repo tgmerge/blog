@@ -1,6 +1,7 @@
 date: "2013-10-16 16:20:00"
 tags:
-- daily
+- dairy
+- photo
 ---
 
 ![](/assets/0037-01.jpg)

@@ -1,7 +1,9 @@
 title: "哪些符合要求的osu beatmap没有下过？"
 date: "2014-11-14 0:58:00"
 tags:
-- daily
+- osu!
+- JavaScript
+- Python
 ---
 在beatmap搜索结果页的javascript console：
 

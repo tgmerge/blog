@@ -1,6 +1,7 @@
 date: "2014-01-11 13:08:00"
 tags:
-- daily
+- dairy
+- image
 ---
 
 ![](/assets/0063-01.gif)

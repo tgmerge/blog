@@ -1,13 +1,13 @@
-title: Github Pages+Hexo
+title: "Github Pages+Hexo"
 date: "2015-04-09"
 tags:
-- daily
+- dairy
 ---
 
 > **Blog=几年以后翻出来看时的羞耻感**
 
 明明知道这个，但人类就是这种会再次往火坑里跳的生物啊。
 
-换到了GitHub Pages+Hexo这样的组合。
+现在换到了GitHub Pages+Hexo这样的组合。
 
-要解决文章转移的问题，文章的存储和格式尽量不依附于特定服务比较好？之前的tumblr虽然支持Markdown但无法自由导出，静态文件如图片的转移也很困难。Hexo的话可以随时从md和图片编译出任何想要的东西来，感觉方便多了。
+要解决文章转移的问题，文章的存储和格式尽量不依附于特定服务比较好。之前的tumblr虽然支持Markdown但无法自由导出，静态文件如图片的转移也很困难。Hexo的话可以随时从md和图片编译出任何想要的东西来，感觉方便多了。

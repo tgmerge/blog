@@ -1,7 +1,8 @@
 title: "Google Photo Sphere"
 date: "2013-10-25 16:49:00"
 tags:
-- daily
+- dairy
+- photo
 ---
 <p>QSC办公室的360°球形全景。事实证明就算距离很近Photo Sphere还能用……</p>
 <p>使用Android 4.2.2 自带相机。脑残转圈/无处理/满地接缝/在意细节的都是⑨！</p>

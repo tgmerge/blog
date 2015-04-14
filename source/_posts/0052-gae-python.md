@@ -1,7 +1,8 @@
 title: "gae, python :: Part I"
 date: "2013-12-05 17:31:00"
 tags:
-- daily
+- GAE
+- Python
 ---
 稍微整理下gae相关的东西。
 

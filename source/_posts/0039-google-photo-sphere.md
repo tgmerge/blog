@@ -1,7 +1,8 @@
 title: "Google Photo Sphere"
 date: "2013-10-25 10:48:00"
 tags:
-- daily
+- dairy
+- photo
 ---
 在tumblr dashboard中并不能正常显示，请直接<a href="http://tgmerge.me/post/65012814162/google-photo-sphere">访问本文</a>。</p>
 

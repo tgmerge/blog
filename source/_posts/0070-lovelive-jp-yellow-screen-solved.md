@@ -1,7 +1,8 @@
 title: "Lovelive日服的第一次启动黄屏问题&解决"
 date: "2014-11-05 4:44:00"
 tags:
-- daily
+- Love Live
+- Android
 ---
 唔发问题解决帖可抽UR
 

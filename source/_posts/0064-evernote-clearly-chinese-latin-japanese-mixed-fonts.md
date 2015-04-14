@@ -1,7 +1,8 @@
 title: "Evernote Clearly中文、英文和日文混排时的字体设置"
 date: "2014-01-12 17:49:00"
 tags:
-- daily
+- font
+- Evernote
 ---
 Clearly相当方便，但多种语言混排的时候，只用`PT Serif, Hiragino Sans GB W3`这样的字体设置会让日文假名显示得一坨……
 
