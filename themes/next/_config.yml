@@ -6,7 +6,7 @@ menu:
   #about: /about
 
 # Place your favicon.ico to /source directory.
-favicon: /favicon.png
+favicon: /favicon.ico
 
 # Set default keywords (Use a comma to separate)
 keywords: "Hexo,next"
@@ -61,4 +61,4 @@ css: css
 images: images
 
 # Theme version
-version: 0.4.1
+version: 0.4.2
