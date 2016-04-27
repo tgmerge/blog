@@ -1,4 +1,4 @@
-title: "SQLAlchemy文档和笔记 (2.1) - ORM (1)"
+title: "SQLAlchemy文档和笔记 (2.1) - ORM指南 (1)"
 date: "2016-04-27 00:51:00"
 tags:
 - Python
@@ -9,6 +9,8 @@ tags:
 本篇 ~~胡乱~~ 翻译自[SQLAlchemy 1.0官方文档 Object Relational Tutorial一章](http://docs.sqlalchemy.org/en/rel_1_0/orm/tutorial.html)。
 
 术语各种拿不定……可以参考[SQLAlchemy术语表](http://docs.sqlalchemy.org/en/rel_1_0/glossary.html)。
+
+- - -
 
 ## Object Relational Tutorial / 对象-关系映射指南
 
@@ -225,4 +227,40 @@ IdentitySet([<User(name='wendy', fullname='Wendy Williams', password='foobar')>,
 
 当`User`对象从`Session`之外被添加到`Session`中，到它被写入到数据库中，它总共经历了三种状态：`transient`, `pending`和`persistent`。可以阅读[Quickie Intro to Object States](http://docs.sqlalchemy.org/en/rel_1_0/orm/session_state_management.html#session-object-states)一节。
 
-> 这章未完。下一节，Rolling Back / 回滚操作
+### Rolling Back / 回滚操作
+
+`Session`中的任务是作为事务运行的，自然就可以回滚变更。例如将`ed_user`的用户名更改为`Edwardo`：
+
+```python
+>>> ed_user.name = 'Edwardo'
+```
+
+然后添加一个错误的用户：
+
+```python
+>>> fake_user = User(name='fakeuser', fullname='Invalid', password='12345')
+>>> session.add(fake_user)
+```
+
+现在使用这个`Session`进行查询，可以发现它们已经被放进了事务中（SQL已经执行了UPDATE和INSERT INTO语句）：
+
+```python
+>>> session.query(User).filter(User.name.in_(['Edwardo', 'fakeuser'])).all()
+[<User(name='Edwardo', fullname='Ed Jones', password='f8s7ccs')>, <User(name='fakeuser', fullname='Invalid', password='12345')>]
+```
+
+然后回滚。可以发现`ed_user`的名字已经回到了`ed`，`fake_user`已经不再出现在session中了：
+
+```python
+>>> session.rollback()
+
+>>> ed_user.name
+u'ed'
+>>> fake_user in session
+False
+
+>>> session.query(User).filter(User.name.in_(['ed', 'fakeuser'])).all()
+[<User(name='ed', fullname='Ed Jones', password='f8s7ccs')>]
+```
+
+> 这章未完。下一节，Querying / 查询
