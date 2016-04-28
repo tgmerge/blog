@@ -272,4 +272,71 @@ Scalar来源于数学中的[标量](https://www.wikiwand.com/en/Scalar_(mathemat
     'ed'
     ```
 
-> 这章未完……这节也没完。下一小节，Counting / 计数
+#### Using Textual SQL / 直接使用SQL语句
+
+在`Query`中，可以使用`text()`方法声明需要直接使用在SQL中的字符串。多数的方法都支持`text()`的这种用法。比如说，`filter()`和`order_by()`：
+
+```python
+>>> from sqlalchemy import text
+>>> for user in session.query(User).filter(text("id<224")).order_by(text("id")).all():
+...     print(user.name)
+ed
+wendy
+mary
+fred
+```
+
+你可以在这些SQL字符串中使用冒号标明SQL参数（bind parameters），使用`params()`方法来给它们赋值：
+
+```python
+>>> session.query(User).finter(text("id<:value and name=:name")).\
+...     params(value=224, name='fred').order_by(User.id).one()
+<User(name='fred', fullname='Fred Flinstone', password='blah')>
+```
+
+如果要直接执行SQL字符串，可以使用`from_statement()`方法。你需要自行保证你的SQL语句返回的表列名在映射类中出现过。比如：
+
+```python
+>>> session.query(User).from_statement(
+...                     text("SELECT * from users where name=:name")).\
+...                     params(name='ed').all()
+[<User(name='ed', fullname='Ed Jones', password='f8s7ccs')>]
+```
+
+#### Counting / 计数
+
+`Query`提供了叫做`count()`的方法，用于计数：
+
+```python
+>>> session.query(User).filter(User.name.like('%ed')).count()
+2
+```
+
+`count()`方法用来获取SQL语句执行后得到的结果行数。它生成的SQL语句中，将用子查询加上一个`count`函数的方法来获取行数。
+
+如果你要特别指定“需要被计数的东西”，可以用`func.count()`直接指定一个“count”聚类函数。（……等等这个`func`是啥）下面来获取各个用户名出现的次数：
+
+```python
+>>> from sqlalchemy import func
+>>> session.query(func.count(User.name), User.name).group_by(User.name).all()
+[(1, u'ed'), (1, u'fred'), (1, u'mary'), (1, u'wendy')]
+```
+
+注意：`Query.count`将会无条件地使用子查询加上`count`来获取计数。如果必须不使用子查询，你可以用`func.count()`。比如说，如果要产生`SELECT count(*) FROM table`，可以：
+
+```python
+>>> session.query(func.count('*')).select_from(User).scalar()
+4
+```
+
+如果在`count`中声明使用`User`的主键，`select_from()`也可以省略：
+
+```python
+>>> session.query(func.count(User.id)).scalar()
+4
+```
+
+- - -
+
+> ORM指南未完。下一节：Builing a Relationship
+
