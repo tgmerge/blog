@@ -3,7 +3,8 @@ date: "2016-04-30 16:55"
 tags:
 - Python
 - SQLAlchemy
-- document
+- 文档
+- 翻译
 ---
 
 本篇是 ~~胡乱~~ 翻译自[SQLAlchemy 1.0官方文档 Object Relational Tutorial一章](http://docs.sqlalchemy.org/en/rel_1_0/orm/tutorial.html)的第四篇笔记。

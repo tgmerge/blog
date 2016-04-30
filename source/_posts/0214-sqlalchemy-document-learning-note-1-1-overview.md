@@ -3,7 +3,8 @@ date: "2016-04-26 23:45:00"
 tags:
 - Python
 - SQLAlchemy
-- document
+- 文档
+- 翻译
 ---
 
 以前在Python写数据库的时候都是尽可能小打小闹_(:3 SQLAlchemy尝试玩了几次然而并没有坚持多久，这次起码要在哪里用上一下？
@@ -11,7 +12,11 @@ tags:
 以一边学学 ~~摸鱼~~ 一边简单 ~~胡乱~~ 翻译[SQLAlchemy官方文档](http://docs.sqlalchemy.org/en/rel_1_0/index.html
 )为主，中间会随便试试然后把memo也加进去。
 
+实际上后面的部分只翻译了Object Relational Tutorial一章，其他详细说明的部分决定之后用到了再说。
+
 本篇翻译自[SQLAlchemy 1.0官方文档 Overview一章](http://docs.sqlalchemy.org/en/rel_1_0/intro.html)。
+
+- - -
 
 ## Overview / 总览
 
