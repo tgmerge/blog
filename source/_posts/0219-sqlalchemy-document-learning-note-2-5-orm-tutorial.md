@@ -138,6 +138,6 @@ Note: 上面的BlogPost类已经定义了user_id外键，约束于users.id，所
 
 - - -
 
-Note: 于是[Object Relational Tutorial](http://docs.sqlalchemy.org/en/rel_1_0/orm/tutorial.html)这篇文档的中文翻译就全部结束辣 :) 接下来大概会翻译和读一下Flask-SQLAlchemy的文档？虽然网上现在有一个0.16翻译版，但版本号现在已经到了2.1，感觉会有出入。
+Note: 于是[Object Relational Tutorial](http://docs.sqlalchemy.org/en/rel_1_0/orm/tutorial.html)这篇文档的中文翻译就全部结束辣 :) 接下来大概会翻译和读一下[Flask-SQLAlchemy的文档](http://flask-sqlalchemy.pocoo.org/2.1/)？虽然网上现在有一个0.16翻译版，但版本号现在已经到了2.1，感觉会有出入。
 
 然后重新玩玩Flask（希望比上次不知为什么熟练一点hhh）
