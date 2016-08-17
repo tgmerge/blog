@@ -98,23 +98,23 @@
     var overlaycomplete = function(e) {
         if (e.drawingMode !== 'polygon') {
             $.snackbar({content: "有路径不是多边形。请使用多边形工具绘制路径", style: 'toast'});
-            map.removeOverlay(e.overlay);
-            return;
         }
         overlays.push(e.overlay);
         var pathStr = "";
+        console.log(overlays);
         for (var j = 0; j < overlays.length; j ++) {
-            var path = overlays[j].getPath();
-            if (Object.prototype.toString.call(path) !== '[object Array]') {
-                $.snackbar({content: "绘制错误", style: 'toast'});
-                return;
+            var path = overlays[j].getPath && overlays[j].getPath();
+            var point = overlays[j].point;
+            if (Object.prototype.toString.call(path) === '[object Array]') {
+                pathStr += '[' + j.toString() + ']';
+                for (var i = 0; i < path.length; i ++) {
+                    pathStr += path[i].lat.toString() + "," + path[i].lng.toString() + ";";
+                }
+                pathStr += "\n\n";
+            } else {
+                pathStr += '[' + j.toString() + ']';
+                pathStr += point.lat + ',' + point.lng + '\n\n';
             }
-
-            pathStr += '[' + j.toString() + ']';
-            for (var i = 0; i < path.length; i ++) {
-                pathStr += path[i].lat.toString() + "," + path[i].lng.toString() + ";";
-            }
-            pathStr += "\n\n";
         }
         $.snackbar({content: "总共有" + overlays.length + "条路径", style: 'toast'});
         textout.value = pathStr;

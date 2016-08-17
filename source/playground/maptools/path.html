@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <style type="text/css">
+    body,
+    html {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .nopadding {
+        padding: 0 !important;
+    }
+    
+    .fullheight {
+        height: 100%;
+    }
+    </style>
+
+    <script src="https://webapi.amap.com/maps?v=1.3&key=c312514a30add4805cd025ac794e55ef&plugin=AMap.PolyEditor,AMap.CircleEditor"></script>
+
+    <!--bootstrap-material-->
+    <script type="text/javascript" src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.js"></script>
+    <script type="text/javascript" src="https://apps.bdimg.com/libs/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://apps.bdimg.com/libs/bootstrap/3.3.4/css/bootstrap.min.css" />
+    <script type="text/javascript" src="https://apps.bdimg.com/libs/bootstrap-material/0.3.0/js/material.min.js"></script>
+    <link rel="stylesheet" href="https://apps.bdimg.com/libs/bootstrap-material/0.3.0/css/material.min.css" />
+    <script type="text/javascript" src="https://apps.bdimg.com/libs/bootstrap-material/0.3.0/js/ripples.min.js"></script>
+    <link rel="stylesheet" href="https://apps.bdimg.com/libs/bootstrap-material/0.3.0/css/ripples.min.css" />
+    <link rel="stylesheet" href="https://apps.bdimg.com/libs/bootstrap-material/0.3.0/css/material-fullpalette.min.css" />
+    <script type="text/javascript" src="snackbar.min.js"></script>
+    <link rel="stylesheet" href="snackbar.min.css" />
+    <script type="text/javascript" src="clipboard.min.js"></script>
+    <script type="text/javascript" src="https://apps.bdimg.com/libs/jquery.cookie/1.4.1/jquery.cookie.min.js"></script>
+    
+    <title>鼠标绘制工具</title>
+</head>
+
+<body style="display:table;">
+    <div class="bs-component" style="display:table-row;">
+        <div class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="javascript:void(0)">PathEditor</a>
+                </div>
+                <div class="navbar-collapse collapse navbar-responsive-collapse">
+                    <ul class="nav navbar-nav">
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="javascript:void(0)">说明</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row fullheight" style="display:table-row;">
+        <div class="col-md-4 fullheight">
+            <div class="btn-group btn-group-justified btn-group-raised">
+                <a href="javascript:clipText()" class="btn" data-clipboard-target="#textout">复制到剪贴板</a>
+                <a class="btn" onClick="toggleGround()">切换参考图</a>
+            </div>
+            <div class="btn-group btn-group-justified btn-group-raised">
+                <a class="btn" onClick="editor.startEditLine()">开始编辑折线</a>
+                <a class="btn" onClick="editor.closeEditLine()">结束编辑折线</a>
+                <a class="btn" onClick="editor.logToMap()">在地图上显示JSON折线</a>
+                <a class="btn" onClick="editor.mapToLog()">记录地图折线到JSON</a>
+            </div>
+            <div class="form-group">
+                <label for="textout" class="control-label">路径坐标</label>
+                <textarea class="form-control" rows="20" id="textout"></textarea>
+                <span class="help-block">并没有说明</span>
+            </div>
+        </div>
+        <div class="col-md-8 fullheight" style="padding-bottom:15px">
+            <div class="panel panel-default fullheight">
+                <div class="panel-body nopadding fullheight">
+                    <div id="container" class="fullheight" style="-webkit-transition: all 0.5s ease-in-out;transition: all 0.5s ease-in-out;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+    
+    var x_PI = 3.14159265358979324 * 3000.0 / 180.0;
+
+    var bd09togcj02 = function bd09togcj02(bd_lon, bd_lat) {
+        var x_pi = 3.14159265358979324 * 3000.0 / 180.0;
+        var x = bd_lon - 0.0065;
+        var y = bd_lat - 0.006;
+        var z = Math.sqrt(x * x + y * y) - 0.00002 * Math.sin(y * x_pi);
+        var theta = Math.atan2(y, x) - 0.000003 * Math.cos(x * x_pi);
+        var gg_lng = z * Math.cos(theta);
+        var gg_lat = z * Math.sin(theta);
+        return [gg_lng, gg_lat]
+    };
+
+    /**
+     * 火星坐标系 (GCJ-02) 与百度坐标系 (BD-09) 的转换
+     * 即谷歌、高德 转 百度
+     * @param lng
+     * @param lat
+     * @returns {*[]}
+     */
+    var gcj02tobd09 = function gcj02tobd09(lng, lat) {
+        var z = Math.sqrt(lng * lng + lat * lat) + 0.00002 * Math.sin(lat * x_PI);
+        var theta = Math.atan2(lat, lng) + 0.000003 * Math.cos(lng * x_PI);
+        var bd_lng = z * Math.cos(theta) + 0.0065;
+        var bd_lat = z * Math.sin(theta) + 0.006;
+        return [bd_lng, bd_lat]
+    };
+
+
+
+    
+    var map = new AMap.Map("container", {
+        resizeEnable: true,
+        center: bd09togcj02(120.158243, 30.272324),//地图中心点
+        zoom: 13 //地图显示的缩放级别
+    });
+    map.plugin(["AMap.ToolBar"], function() {
+        map.addControl(new AMap.ToolBar());
+    });
+
+    //在地图上绘制折线
+    var editor={};
+    editor.line=(function(){
+        var lineArr = [
+            bd09togcj02(120.086379, 30.316815),
+            bd09togcj02(120.29996, 30.091948)
+        ];
+        return new AMap.Polyline({
+            map: map,
+            path: lineArr,
+            strokeColor: "#FF33FF",//线颜色
+            strokeOpacity: 1,//线透明度
+            strokeWeight: 3,//线宽
+            strokeStyle: "solid"//线样式
+        });
+    })();
+    editor.lineEditor= new AMap.PolyEditor(map, editor.line);
+    map.setFitView();
+
+    var ground = new AMap.GroundImage(
+        'metro.jpg',
+        new AMap.Bounds(bd09togcj02(119.938302, 30.052107), bd09togcj02(120.47186, 30.473441)),
+        {
+            'opacity': 0.5
+        });
+    map.add(ground);
+    var toggleGround = function() {
+        if (ground.getOpacity() !== 0) {
+            ground.setOpacity(0);
+        } else {
+            ground.setOpacity(0.5);
+        }
+    }
+
+    editor.startEditLine=function(){
+        editor.lineEditor.open();
+    }
+    editor.closeEditLine=function(){
+        editor.lineEditor.close();
+    }
+    editor.logToMap = function() {
+        str = textout.value;
+        path = [];
+        console.log(str);
+        point_strs = str.replace(/\n/g, '').split(';');
+        console.log(point_strs);
+        for (var i in point_strs) {
+            if (point_strs[i] === '') continue;
+            bdcoord_str = point_strs[i].split(',');
+            coord = bd09togcj02(Number(bdcoord_str[1]), Number(bdcoord_str[0])); // output: lat, lng
+            if (isNaN(coord[0]) || isNaN(coord[1])) {
+                $.snackbar({content: "折线错误", style: 'toast'});
+                return;
+            }
+            path.push(coord);
+        }
+        editor.line.setPath(path);
+        $.snackbar({content: "已经显示折线", style: 'toast'});
+    }
+    editor.mapToLog = function() {
+        path = editor.line.getPath();
+        str = '';
+        for (var i in path) {
+            bdcoord = gcj02tobd09(path[i].lng, path[i].lat); // bdcoord: [lng, lat]
+            str += bdcoord[1] + ',' + bdcoord[0] + ';\n' // output: lat, lng
+        }
+        textout.value = str;
+        textout.scrollTop = textout.scrollHeight;
+    }
+    AMap.event.addListener(editor.lineEditor, 'addnode', editor.mapToLog)
+    AMap.event.addListener(editor.lineEditor, 'adjust', editor.mapToLog)
+    AMap.event.addListener(editor.lineEditor, 'removenode', editor.mapToLog)
+    AMap.event.addListener(editor.lineEditor, 'close', editor.mapToLog)
+
+    function clipText() {
+        $.snackbar({content: "已经复制到剪贴板", style: 'toast'});
+    }
+    </script>
+</body>
+
+</html>
