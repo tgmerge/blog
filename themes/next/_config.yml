@@ -16,7 +16,10 @@ rss:
 # Specify the date when the site was setup
 since: 2013
 
-
+# Canonical, set a canonical link tag in your hexo, you could use it for your SEO of blog.
+# See: https://support.google.com/webmasters/answer/139066
+# Tips: Before you open this tag, remeber set up your URL in hexo _config.yml ( ex. url: http://yourdomain.com )
+canonical: true
 
 
 # ---------------------------------------------------------------
@@ -57,7 +60,7 @@ menu_icons:
 
 # Schemes
 #scheme: Muse
-# scheme: Mist
+#scheme: Mist
 scheme: Pisces
 
 
@@ -102,7 +105,7 @@ font:
     size:
 
   # Font settings for <code> and code blocks.
-  code:
+  codes:
     external: true
     family:
 
@@ -121,7 +124,7 @@ social:
   GitHub: https://github.com/tgmerge
   Weibo: http://weibo.com/tgmerge
   G+: https://plus.google.com/+tgmergeSipan
-
+  　: http://xiefan.me/
 
 
 # Social Links Icons
@@ -137,6 +140,7 @@ social_icons:
   Twitter: twitter
   Weibo: weibo
   G+: google-plus-square
+  　: heart
 
 
 # Sidebar Avatar
@@ -175,6 +179,13 @@ sidebar:
   #display: hide
   #display: remove
 
+
+# Blogrolls
+#links_title: Links
+#links_layout: block
+#links_layout: inline
+#links:
+  #Title: http://example.com/
 
 
 # ---------------------------------------------------------------
@@ -216,7 +227,7 @@ auto_excerpt:
   #description: ex. subscribe to my blog by scanning my public wechat account
 
 
-  
+
 
 # ---------------------------------------------------------------
 # Third Party Services Settings
@@ -243,11 +254,13 @@ duoshuo_shortname: tgmerge
 # Baidu Share
 # Available value:
 #    button | slide
+# Warning: Baidu Share does not support https.
 #baidushare:
 ##  type: button
 
 # Share
 #jiathis:
+# Warning: JiaThis does not support https.
 #add_this_id:
 
 # Share
@@ -284,6 +297,15 @@ facebook_sdk:
   like_button:  #true
   webmaster:    #true
 
+# Facebook comments plugin
+# This plugin depends on Facebook SDK.
+# If facebook_sdk.enable is false, Facebook comments plugin is unavailable.
+facebook_comments_plugin:
+  enable: false
+  num_of_posts: 10  # min posts num is 1
+  width: 100%       # default width is 550px
+  scheme: light     # default scheme is light (light or dark)
+
 
 # Show number of visitors to each article.
 # You can visit https://leancloud.cn get AppID and AppKey.
@@ -300,15 +322,15 @@ busuanzi_count:
   # custom uv span for the whole site
   site_uv: true
   site_uv_header: <i class="fa fa-user"></i>
-  site_uv_footer: 
+  site_uv_footer:
   # custom pv span for the whole site
   site_pv: true
   site_pv_header: <i class="fa fa-eye"></i>
-  site_pv_footer: 
+  site_pv_footer:
   # custom pv span for one page only
   page_pv: true
   page_pv_header: <i class="fa fa-file-o"></i>
-  page_pv_footer: 
+  page_pv_footer:
 
 # Tencent analytics ID
 # tencent_analytics:
@@ -324,7 +346,7 @@ baidu_push: false
 #! ---------------------------------------------------------------
 
 # Motion
-use_motion: true
+use_motion: false
 
 # Fancybox
 fancybox: true
@@ -335,6 +357,7 @@ fancybox: true
 # For example
 #    jquery: https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js
 # Be aware that you should use the same version as internal ones to avoid potential problems.
+# Please use the https protocol of CDN files when you enable https on your site.
 vendors:
   # Internal path prefix. Please do not edit it.
   _internal: vendors
@@ -343,22 +366,33 @@ vendors:
   jquery:
 
   # Internal version: 2.1.5
+  # See: http://fancyapps.com/fancybox/
   fancybox:
+  fancybox_css:
 
   # Internal version: 1.0.6
+  # See: https://github.com/ftlabs/fastclick
   fastclick:
 
   # Internal version: 1.9.7
+  # See: https://github.com/tuupola/jquery_lazyload
   lazyload:
 
   # Internal version: 1.2.1
+  # See: http://VelocityJS.org
   velocity:
 
   # Internal version: 1.2.1
+  # See: http://VelocityJS.org
   velocity_ui:
 
   # Internal version: 0.7.9
+  # See: https://faisalman.github.io/ua-parser-js/
   ua_parser:
+
+  # Internal version: 4.4.0
+  # See: http://fontawesome.io/
+  fontawesome:
 
 
 # Assets
@@ -367,4 +401,4 @@ js: js
 images: images
 
 # Theme version
-version: 5.0.1
+version: 5.0.2
