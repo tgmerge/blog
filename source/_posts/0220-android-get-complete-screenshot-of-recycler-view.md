@@ -3,7 +3,6 @@ date: "2016-10-23 14:53"
 tags:
 - Android
 - Java
-- 问题
 ---
 
 写 Android 应用的时候，偶尔会遇到“需要对某个 view 截图”的问题。对一个单独的简单 view ，常见的实现方法有以下两种：
@@ -30,6 +29,8 @@ tags:
     这之后`viewBitmap`这个 Bitmap 即为`textView`的图像。这对普通的 view 基本已经够用了，除非 view 的高度太大，可能还是会内存不足。
 
 然而实际需求中，这种截图常常用于“分享”之类的功能，需要截图的部分一般都是比较复杂的 ViewGroup 。而其中 RecyclerView 的截图尤其麻烦，由于它回收复用 view 和 ViewHolder 的特性，难以用普通的方法截到完整的图片。
+
+<!-- more -->
 
 StackOverflow 上有人给出了一个[对 RecyclerView 截图的方案](http://stackoverflow.com/a/30124162/2996355)：
 
