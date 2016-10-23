@@ -89,7 +89,7 @@ fred
 `Query`中可以进行一些基本操作，比如LIMIT和OFFSET，最简单的用法是使用Python的数组切片表示。一般来说会和ORDER BY一起使用：
 
 ```python
->>> from u in session.query(User).order_by(User.id)[1:3]:
+>>> for u in session.query(User).order_by(User.id)[1:3]:
 >>>     print(u)
 <User(name='wendy', fullname='Wendy Williams', password='foobar')>
 <User(name='mary', fullname='Mary Contrary', password='xxg527')>
@@ -98,7 +98,7 @@ fred
 也可以使用`offset()`和`limit()`进行分页。例如：
 
 ```python
-from u in session.query(User).order_by(User.id).offset(10).limit(5):
+for u in session.query(User).order_by(User.id).offset(10).limit(5):
     print(u)
 ```
 
