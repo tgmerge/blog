@@ -1,5 +1,5 @@
 function App() {
-    this.currentUrl = "https://script.google.com/macros/s/AKfycbzVgQHILi5NUPbLpv7g5a8_P8HjDV_sYdH5wleUAVnz0FXsAvZm/exec";
+    this.currentUrl = "https://script.google.com/macros/s/AKfycbxy5-UvXO5X_TphIsqoMr2MUijpSVrF38hJm7OoKzpIGWWuNOXy/exec";
     this.dataUrl_pre = this.currentUrl + '?type=timedyarr';
     this.dataUrl = '';
     this.dyGraphColumn = ['x', 'm', 'p'];
