@@ -102,3 +102,11 @@ Data Binding Library 还支持更多绑定属性、通过 `ViewHolder` 使用多
 在 Android Studio 2.3 中，在 layout XML 中为 `ListView` 和 `RecyclerView` 等设置的 `tools:listitem` 属性终于能在预览界面中显示出来辣！
 
 > 写 layout 不用 tools namespace 写预览内容的人，养的猫都会很丑，而且会在 30 岁的时候不得已和不喜欢的人结婚
+
+## 顺便说一个关于快捷键的事情
+
+Android Studio 的 "Class Name Completion" 这个自动补全操作可以提示 XML 中可选的属性值，Windows 下默认 Keymap `Ctrl+Alt+Space`
+
+![自动补全 Layout XML 中的属性值](/assets/0224-05.png)
+
+没发现这个操作名字和快捷键的时候都是重新敲一遍属性名称触发它的哈哈哈
