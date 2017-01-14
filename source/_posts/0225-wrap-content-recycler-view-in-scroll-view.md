@@ -84,6 +84,10 @@ RecyclerView 在项目较多时将无法按 `WRAP_CONTENT` 的预期显示完整
     </ScrollView>
     ```
 
+3. 使用 RelativeLayout 包裹 RecyclerView，在 LinearLayout 中使用。
+
 这样 RecyclerView 就能作为 ScrollView 的一部分在长页面中正常滚动了。
 
 当然不能忘记使用 `recyclerView.setNestedScrollingEnabled(false)` 禁用 RecyclerView 本身的 nested scrolling，以及使用 `recyclerView.getLayoutManager().setAutoMeasureEnabled(true)` 启用 LayoutManager 的 AutoMeasure 功能自动计算布局。
+
+参考：[android-recycler-view-wrap-content](https://github.com/amardeshbd/android-recycler-view-wrap-content)，[RecyclerView inside ScrollView is not working](http://stackoverflow.com/a/37338715/2996355) 和 [RecyclerView inside ScrollView is not working](http://stackoverflow.com/a/38995399/2996355)
