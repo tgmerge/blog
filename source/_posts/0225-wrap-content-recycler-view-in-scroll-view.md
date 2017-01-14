@@ -33,6 +33,8 @@ RecyclerView 在项目较多时将无法按 `WRAP_CONTENT` 的预期显示完整
 
 像这样：
 
+<!-- more -->
+
 ```xml
 <ScrollView>
     <LinearLayout ... android:oriention="vertical">

@@ -18,6 +18,8 @@ Android Studio 2.2 的 Instant Run 按钮很不方便使用：在 Instant Run �
 
 > 终于不需要经常 Disable instant run 了 \_(:3
 
+<!-- more -->
+
 ## 编译缓存
 
 Android Studio 2.3 将使用跨 Project 的编译缓存来加速项目编译。他们说的。
