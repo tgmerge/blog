@@ -26,7 +26,7 @@ $body-bg-color                = $white-pure
 // --------------------------------------------------
 
 // Font families
-$font-family-chinese      = "Source Han Serif", "ST Song", "PingFang SC", "SimSun"
+$font-family-chinese      = "Source Han Serif", "STSong", "PingFang SC", "SimSun"
 
 $font-family-base         = $font-family-chinese, serif
 $font-family-base         = get_font_family('global'), $font-family-chinese, serif if get_font_family('global')
@@ -46,6 +46,23 @@ $font-family-monospace    = get_font_family('codes'), consolas, Menlo, $font-fam
 $font-family-icons        = 'FontAwesome'
 
 
+// Font size
+$font-size-base           = 16px
+$font-size-small          = $font-size-base - 2px
+$font-size-smaller        = $font-size-base - 4px
+$font-size-large          = $font-size-base + 2px
+$font-size-larger         = $font-size-base + 4px
+
+
+// Headings font size
+$font-size-headings-step    = 2px
+$font-size-headings-base    = 28px
+$font-size-headings-small   = $font-size-headings-base - $font-size-headings-step
+$font-size-headings-smaller = $font-size-headings-small - $font-size-headings-step
+$font-size-headings-large   = $font-size-headings-base + $font-size-headings-step
+$font-size-headings-larger  = $font-size-headings-large + $font-size-headings-step
+
+
 
 // Code & Code Blocks
 // --------------------------------------------------
@@ -54,13 +71,11 @@ $code-background                = none
 
 
 
-
-
 // Sidebar
 // --------------------------------------------------
 $sidebar-nav-color                = $black-pure
-$sidebar-nav-hover-color          = $red
-$sidebar-highlight                = $red
+$sidebar-nav-hover-color          = $black-pure
+$sidebar-highlight                = $black-pure
 
 $site-author-image-border-width   = 0px
 
@@ -69,9 +84,9 @@ $site-author-name-color           = $black-pure
 $site-state-item-name-color       = $black-pure
 
 $toc-link-color                       = $black-pure
-$toc-link-border-color                = $white-pure
+$toc-link-border-color                = $black-pure
 $toc-link-hover-color                 = $black-pure
-$toc-link-hover-border-color          = $white-pure
+$toc-link-hover-border-color          = $black-pure
 $toc-link-active-color                = $red
 $toc-link-active-border-color         = $red
 $toc-link-active-current-color        = $red
