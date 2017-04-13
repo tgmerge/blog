@@ -1,0 +1,78 @@
+// Colors
+// --------------------------------------------------
+
+$black-pure = #000
+$white-pure = #FFF 
+
+
+
+// Scaffolding
+// --------------------------------------------------
+
+$text-color                   = $black-pure
+$link-color                   = $black-pure
+$link-hover-color             = $black-pure
+$link-decoration-color        = $black-pure
+$link-decoration-hover-color  = $red
+
+$border-color                 = $grey-light
+
+// Background
+$body-bg-color                = $white-pure
+
+
+
+// Typography
+// --------------------------------------------------
+
+// Font families
+$font-family-chinese      = "Source Han Serif", "ST Song", "PingFang SC", "SimSun"
+
+$font-family-base         = $font-family-chinese, serif
+$font-family-base         = get_font_family('global'), $font-family-chinese, serif if get_font_family('global')
+
+$font-family-logo         = $font-family-base
+$font-family-logo         = get_font_family('logo'), $font-family-base if get_font_family('logo')
+
+$font-family-headings     = $font-family-base
+$font-family-headings     = get_font_family('headings'), $font-family-base if get_font_family('headings')
+
+$font-family-posts        = $font-family-base
+$font-family-posts        = get_font_family('posts'), $font-family-base if get_font_family('posts')
+
+$font-family-monospace    = consolas, Menlo, $font-family-chinese, monospace
+$font-family-monospace    = get_font_family('codes'), consolas, Menlo, $font-family-chinese, monospace if get_font_family('codes')
+
+$font-family-icons        = 'FontAwesome'
+
+
+
+// Code & Code Blocks
+// --------------------------------------------------
+$code-foreground                = $black-pure
+$code-background                = none
+
+
+
+
+
+// Sidebar
+// --------------------------------------------------
+$sidebar-nav-color                = $black-pure
+$sidebar-nav-hover-color          = $red
+$sidebar-highlight                = $red
+
+$site-author-image-border-width   = 0px
+
+$site-author-name-color           = $black-pure
+
+$site-state-item-name-color       = $black-pure
+
+$toc-link-color                       = $black-pure
+$toc-link-border-color                = $white-pure
+$toc-link-hover-color                 = $black-pure
+$toc-link-hover-border-color          = $white-pure
+$toc-link-active-color                = $red
+$toc-link-active-border-color         = $red
+$toc-link-active-current-color        = $red
+$toc-link-active-current-border-color = $red
