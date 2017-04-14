@@ -26,7 +26,7 @@ $body-bg-color                = $white-pure
 // --------------------------------------------------
 
 // Font families
-$font-family-chinese      = "Source Han Serif", "SimSun", "PingFang SC"
+$font-family-chinese      = "SimSun", "PingFang SC"
 
 $font-family-base         = $font-family-chinese, serif
 $font-family-base         = get_font_family('global'), $font-family-chinese, serif if get_font_family('global')
@@ -61,6 +61,10 @@ $font-size-headings-small   = $font-size-headings-base - $font-size-headings-ste
 $font-size-headings-smaller = $font-size-headings-small - $font-size-headings-step
 $font-size-headings-large   = $font-size-headings-base + $font-size-headings-step
 $font-size-headings-larger  = $font-size-headings-large + $font-size-headings-step
+
+// Global line height
+$line-height-base           = 32px
+$line-height-code-block     = 1.5  // Can't be less than 1.3
 
 
 
