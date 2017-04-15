@@ -1,6 +1,23 @@
 // custom styles
 
+// Customized from normalize.styl
+// 防止 <strong> 高度多出 2px
+//---------------------------------------------
 
+
+article b,
+article strong,
+article code {
+    line-height: 100%;
+}
+
+// Customized from base.styl
+//---------------------------------------------
+
+body {
+    text-rendering: geometricPrecision;
+    +desktop-large() { font-size: $font-size-base; }
+}
 
 // Customized from post-title.styl
 //---------------------------------------------
