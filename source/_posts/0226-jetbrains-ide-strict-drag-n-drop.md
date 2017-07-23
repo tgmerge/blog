@@ -8,7 +8,7 @@ tags:
 
 ![](/assets/0226-01.png)
 
-* ``Enable Drag'n'Drop functionality in editor`` → Disabled
-* ``Drag-n-Drop with ALT pressed only`` → Enabled
+* Enable Drag'n'Drop functionality in editor → Disabled
+* Drag-n-Drop with ALT pressed only → Enabled
 
-讲真这两个的默认值根本就不人性吧hhh
+这两个的默认值大概很不人性？
