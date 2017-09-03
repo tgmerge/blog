@@ -1,5 +1,5 @@
 ---
-title:
+title: 未命名
 date: "2015-05-06 22:30:00"
 tags:
 - photo
