@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <style type="text/css">
+    body,
+    html {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .nopadding {
+        padding: 0 !important;
+    }
+    
+    .fullheight {
+        height: 100%;
+    }
+    </style>
+    <script type="text/javascript" src="https://api.map.baidu.com/api?v=2.0&ak=xyhswGCSubWSqE3K1LZ8EFEr9EUg5faq&s=1"></script>
+    <!--bootstrap-material-->
+    <script type="text/javascript" src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.js"></script>
+    <script type="text/javascript" src="https://apps.bdimg.com/libs/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://apps.bdimg.com/libs/bootstrap/3.3.4/css/bootstrap.min.css" />
+    <script type="text/javascript" src="https://apps.bdimg.com/libs/bootstrap-material/0.3.0/js/material.min.js"></script>
+    <link rel="stylesheet" href="https://apps.bdimg.com/libs/bootstrap-material/0.3.0/css/material.min.css" />
+    <script type="text/javascript" src="https://apps.bdimg.com/libs/bootstrap-material/0.3.0/js/ripples.min.js"></script>
+    <link rel="stylesheet" href="https://apps.bdimg.com/libs/bootstrap-material/0.3.0/css/ripples.min.css" />
+    <link rel="stylesheet" href="https://apps.bdimg.com/libs/bootstrap-material/0.3.0/css/material-fullpalette.min.css" />
+    <script type="text/javascript" src="snackbar.min.js"></script>
+    <link rel="stylesheet" href="snackbar.min.css" />
+    <script type="text/javascript" src="clipboard.min.js"></script>
+    <script type="text/javascript" src="http://apps.bdimg.com/libs/jquery.cookie/1.4.1/jquery.cookie.min.js"></script>
+    
+    <!--加载鼠标绘制工具-->
+    <script type="text/javascript" src="https://api.map.baidu.com/library/DrawingManager/1.4/src/DrawingManager_min.js"></script>
+    <link rel="stylesheet" href="https://api.map.baidu.com/library/DrawingManager/1.4/src/DrawingManager_min.css" />
+    <!--加载检索信息窗口-->
+    <script type="text/javascript" src="https://api.map.baidu.com/library/SearchInfoWindow/1.4/src/SearchInfoWindow_min.js"></script>
+    <link rel="stylesheet" href="https://api.map.baidu.com/library/SearchInfoWindow/1.4/src/SearchInfoWindow_min.css" />
+    <title>鼠标绘制工具</title>
+</head>
+
+<body style="display:table;">
+    <div class="bs-component" style="display:table-row;">
+        <div class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="javascript:void(0)">PathEditor</a>
+                </div>
+                <div class="navbar-collapse collapse navbar-responsive-collapse">
+                    <ul class="nav navbar-nav">
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="javascript:void(0)">说明</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row fullheight" style="display:table-row;">
+        <div class="col-md-4 fullheight">
+            <div class="btn-group btn-group-justified btn-group-raised">
+                <a href="javascript:clipText()" class="btn" data-clipboard-target="#textout">复制到剪贴板</a>
+                <a href="javascript:clearAll()" class="btn">清除路径</a>
+            </div>
+            <div class="form-group">
+                <label for="textout" class="control-label">路径坐标</label>
+                <textarea class="form-control" readonly rows="20" id="textout"></textarea>
+                <span class="help-block">说明：请使用地图右上方的“画多边形”工具绘制，最后“复制到剪贴板”即可。中途退出的话，路径会自动保存。</span>
+            </div>
+        </div>
+        <div class="col-md-8 fullheight" style="padding-bottom:15px">
+            <div class="panel panel-default fullheight">
+                <div class="panel-body nopadding fullheight">
+                    <div id="map" class="fullheight" style="-webkit-transition: all 0.5s ease-in-out;transition: all 0.5s ease-in-out;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+    // 百度地图API功能
+    var map = new BMap.Map('map', {enableMapClick: false});
+    var poi = new BMap.Point(120.229279, 30.288337);
+    map.centerAndZoom(poi, 12);
+    map.enableScrollWheelZoom();
+    var overlays = [];
+
+    var overlaycomplete = function(e) {
+        if (e.drawingMode !== 'polygon') {
+            $.snackbar({content: "有路径不是多边形。请使用多边形工具绘制路径", style: 'toast'});
+        }
+        overlays.push(e.overlay);
+        var pathStr = "";
+        console.log(overlays);
+        for (var j = 0; j < overlays.length; j ++) {
+            var path = overlays[j].getPath && overlays[j].getPath();
+            var point = overlays[j].point;
+            if (Object.prototype.toString.call(path) === '[object Array]') {
+                pathStr += '[' + j.toString() + ']';
+                for (var i = 0; i < path.length; i ++) {
+                    pathStr += path[i].lat.toString() + "," + path[i].lng.toString() + ";";
+                }
+                pathStr += "\n\n";
+            } else {
+                pathStr += '[' + j.toString() + ']';
+                pathStr += point.lat + ',' + point.lng + '\n\n';
+            }
+        }
+        $.snackbar({content: "总共有" + overlays.length + "条路径", style: 'toast'});
+        textout.value = pathStr;
+        textout.scrollTop = textout.scrollHeight;
+        saveToCookie();
+    };
+
+    var styleOptions = {
+            strokeColor: "red", //边线颜色。
+            fillColor: "red", //填充颜色。当参数为空时，圆形将没有填充效果。
+            strokeWeight: 3, //边线的宽度，以像素为单位。
+            strokeOpacity: 0.8, //边线透明度，取值范围0 - 1。
+            fillOpacity: 0.6, //填充的透明度，取值范围0 - 1。
+            strokeStyle: 'solid' //边线的样式，solid或dashed。
+        }
+
+    //实例化鼠标绘制工具
+    var drawingManager = new BMapLib.DrawingManager(map, {
+        isOpen: false, //是否开启绘制模式
+        enableDrawingTool: true, //是否显示工具栏
+        drawingToolOptions: {
+            anchor: BMAP_ANCHOR_TOP_RIGHT, //位置
+            offset: new BMap.Size(5, 5), //偏离值
+        },
+        circleOptions: styleOptions, //圆的样式
+        polylineOptions: styleOptions, //线的样式
+        polygonOptions: styleOptions, //多边形的样式
+        rectangleOptions: styleOptions //矩形的样式
+    });
+
+    //添加鼠标绘制工具监听事件，用于获取绘制结果
+    drawingManager.addEventListener('overlaycomplete', overlaycomplete);
+
+    function clearAll() {
+        for (var i = 0; i < overlays.length; i++) {
+            map.removeOverlay(overlays[i]);
+        }
+        overlays.length = 0;
+        textout.value = "";
+        saveToCookie();
+        $.snackbar({content: "路径已经清除", style: 'toast'});
+    }
+
+    function clipText() {
+        $.snackbar({content: "已经复制到剪贴板", style: 'toast'});
+    }
+
+    function saveToCookie() {
+        var paths = [];
+        for (var i = 0; i < overlays.length; i ++) {
+            paths.push(overlays[i].getPath());
+        }
+        $.cookie('overlay_array', JSON.stringify(paths));
+        $.cookie('info_string', textout.value);
+        console.log("Save to cookie:")
+        console.log(paths);
+        console.log(textout.value);
+    }
+
+    function loadFromCookie() {
+        var overlay_array = JSON.parse($.cookie('overlay_array'));
+        var info_string = $.cookie('info_string');
+        console.log("Load from cookie:");
+        console.log(overlay_array);
+        console.log(info_string);
+
+        if (Object.prototype.toString.call(overlay_array) === '[object Array]') {
+            for (var i = 0; i < overlay_array.length; i ++) {
+                polygon = new BMap.Polygon(overlay_array[i], styleOptions);
+                overlays.push(polygon);
+                map.addOverlay(polygon);
+            }
+            textout.value = info_string;
+            textout.scrollTop = textout.scrollHeight;
+            $.snackbar({content: "已经恢复上次保存的路径", style: 'toast'});
+        }
+    }
+
+    $.material.init();
+    new Clipboard('.btn');
+    loadFromCookie();
+    </script>
+</body>
+
+</html>

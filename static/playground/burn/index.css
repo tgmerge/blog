@@ -1,0 +1,133 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+}
+p, span, form, input {
+    font-family: 'Roboto Slab', Helvetica, Arial, sans-serif;
+    word-wrap: break-word;
+}
+.card {
+    box-shadow: 0 0 2px rgba(0, 0, 0, .12), 0 2px 4px rgba(0, 0, 0, .24);
+    background: white;
+    overflow: hidden;
+    padding: 1.5rem;
+    margin: 0 1rem 1rem;
+}
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+.aspectwrapper {
+    display: inline-block;
+    /* shrink to fit */
+    
+    width: 100%;
+    /* whatever width you like */
+    
+    position: relative;
+    /* so .content can use position: absolute */
+}
+.aspectwrapper::after {
+    padding-top: 56.25%;
+    /* percentage of containing block _width_ */
+    
+    display: block;
+    content: '';
+}
+.aspectcontent {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    /* follow the parent's edges */
+    /*outline: thin dashed green;             just so you can see the box */
+}
+html {
+    background-color: #313131;
+    font-size: 16px;
+    color: #555;
+}
+body {
+    max-width: 1000px;
+    min-height: 100%;
+    margin: auto;
+}
+input:focus {
+    outline: 0;
+}
+form, form fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+form label {
+    display: block;
+    text-align: left;
+    margin: 0.2rem 0 0.2rem 0;
+    float: left;
+    width: 50%;
+}
+form label>span {
+    padding-right: 1rem;
+    display: inline-block;
+    width: 45%;
+    vertical-align: baseline;
+    white-space: nowrap;
+}
+form label>input {
+    width: 45%;
+    line-height: 1.5rem;
+    font-size: 1rem;
+}
+#top {
+    width: 100%;
+    display: table;
+    padding: 7rem 0 1rem 0;
+    margin: 0 0 1rem 0;
+}
+#title {
+    padding: 0 1rem;
+    font-size: 24px;
+    display: table-cell;
+    vertical-align: middle;
+    font-weight: bold;
+    color: #ececec;
+}
+#main {
+    width: 100%;
+    background-color: #ececec;
+    box-shadow: 0 0 4px rgba(0, 0, 0, .14), 0 4px 8px rgba(0, 0, 0, .28);
+    padding: 2em 0 4em 0;
+}
+#graph-card {
+    text-align: center;
+}
+#graph-div {
+    width: 100%;
+}
+/* - - - */
+
+@media screen and (max-width: 500px) {
+    .card {
+        padding: 0.5rem;
+        margin: 0 0.3rem 0.3rem;
+    }
+    .dygraph-legend, #graph-div div {
+        font-size: 0.5rem !important;
+    }
+    .dygraph-legend {
+        width: auto !important;
+        left: auto !important;
+        right: 0px !important;
+    }
+    form label {
+        width: 100%;
+    }
+    form label>span {
+        min-width: 50%;
+    }
+}

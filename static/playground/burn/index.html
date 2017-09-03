@@ -1,0 +1,63 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>&gt; see our money burn _(:3 / L)_</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/dygraph/1.1.0/dygraph-combined.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+</head>
+<!-- page start -->
+
+<body>
+    <div id="top">
+        <p id="title">&gt; see our money burn _(:3 / L)_</p>
+    </div>
+
+    <div id="main">
+        <div id="graph-card" class="card clearfix">
+            <div class="aspectwrapper">
+                <div id="graph-div" class="aspectcontent" style="width: 100%;">
+                    <div id="graph-loading">　loading...　</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <form id="param-form">
+                <fieldset>
+                    <label><span>CNY/kWh</span>
+                        <input type="text" id="mpkwh" value="0.558">
+                    </label>
+                    <label><span>P.avg.duration(s)</span>
+                        <input type="text" id="minduration" value="600">
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <label><span>date</span>
+                        <input type="date" id="date" value="" />
+                        <script>
+                        document.getElementById('date').value = (new Date()).toJSON().slice(0, 10);
+                        </script>
+                    </label>
+                </fieldset>
+            </form>
+        </div>
+
+        <div class="card">
+            <span>wow</span>
+            <br>
+            <span>such fun</span>
+            <br>
+            <span>veri satisfyied</span>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+    firejs();
+    </script>
+</body>
+
+</html>
