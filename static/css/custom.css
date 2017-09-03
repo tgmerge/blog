@@ -1,0 +1,12 @@
+.meta > .posted-on,
+.meta > .byline,
+.meta > .reading-time,
+.site-info > .site-description,
+.entry-info > .entry-subtitle,
+.taxonomy-type {
+	font-style: unset !important;
+}
+
+body {
+	line-height: 1.8;
+}

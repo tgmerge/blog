@@ -46,13 +46,14 @@ hasCJKLanguage = true
 [author.social]
   #codepen = "MunifTanjim"
   #facebook = "MunifTanjim"
-  email = "tgmgsp@gmail.com"
+  #email = "tgmgsp@gmail.com"
   github = "tgmerge"
   #instagram = "instagram"
   twitter = "tgmerge"
   weibo = "tgmerge"
   googleplus = "tgmergeSipan"
   #linkedin = "muniftanjim"
+  love = "http://xiefan.me/"
 
 [permalinks]
   page = "/:slug/"
