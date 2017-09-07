@@ -1,0 +1,22 @@
+<article class='list-item snap-list-item'>
+  {{ if (isset .Params "banner") }}
+    <a href='{{ .Permalink }}' class='snap-img' style="background-image: url('{{ .Params.banner }}')"></a>
+  {{ else }}
+    <a href='{{ .Permalink }}' class='snap-img' style="background-image: url('http://via.placeholder.com/900x300?text=no image')"></a>
+  {{ end }}
+  <div class='meta snap-meta'>
+    <span>
+      <span class='screen-reader'>{{ i18n "postedOn" }} </span>
+      <time datetime='{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}'>
+        {{- .Date.Format "2006-01-02" -}}
+      </time>
+    </span>
+  </div>
+  <header class='list-item-header snap-list-item-header'>
+    <h3 class='list-item-title'>
+      <a href='{{ .Permalink }}'>
+        {{- .Title -}}
+      </a>
+    </h3>
+  </header>
+</article>

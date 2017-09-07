@@ -3,10 +3,33 @@
 .meta > .reading-time,
 .site-info > .site-description,
 .entry-info > .entry-subtitle,
-.taxonomy-type {
+.taxonomy-type,
+.entry-nav-links>div a {
 	font-style: unset !important;
 }
 
 body {
 	line-height: 1.8;
 }
+
+.snap-list-item {
+	display: flex;
+	flex-flow: row wrap !important;
+}
+
+.snap-img {
+	display: block;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 255px;
+	flex: 0 0 100%;
+}
+
+.snap-list-item-header {
+}
+
+.snap-meta {
+	flex: 6 0 auto !important;
+}
+

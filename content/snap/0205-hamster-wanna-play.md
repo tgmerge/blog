@@ -4,6 +4,7 @@ date: "2015-05-06 22:30:00"
 tags:
 - photo
 - dairy
+banner: "/assets/0205-01.jpg"
 ---
 
 ![](/assets/0205-01.jpg) 不想写毕设，想出去玩

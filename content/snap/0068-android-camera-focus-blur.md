@@ -4,6 +4,7 @@ date: "2014-04-24 1:23:03"
 tags:
 - dairy
 - photo
+banner: "/assets/0068-01.gif"
 ---
 
 ![](/assets/0068-01.gif)

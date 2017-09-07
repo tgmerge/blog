@@ -5,6 +5,7 @@ tags:
 - dairy
 - photo
 - cat
+banner: "/assets/0212-01.jpg"
 ---
 
 ![](/assets/0212-01.jpg)
