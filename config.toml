@@ -1,49 +1,65 @@
 baseURL = "https://tgmerge.me"
 title = "tgmerge's blog"
-copyright = "CC BY-NC-SA 4.0 / tgmerge"
+# for smart copyright line, leave this blank and check [params.copyright]
+copyright = ""
 
 theme = "minimo"
 
 disqusShortname = ""
 googleAnalytics = ""
-Paginate = 7
 
+Paginate = 7
 preserveTaxonomyNames = true
+
+enableRobotsTXT = true # generate robots.txt
+
+# Syntax Highlighting ( https://gohugo.io/content-management/syntax-highlighting/ )
+pygmentsCodefences = true
+
+# Language Configuration
+defaultContentLanguage = "zh-cn"
 
 hasCJKLanguage = true
 
-[params]
-  description = "写写代码 吸吸猫"
-  dateFormat = "2006-01-02"
-  copyrightOwner = "tgmerge"
-  copyrightStartYear = "2013"
+[params.info]
+  description = ""
+  title404 = "Nothing's here :)"
+
+[params.assets]
   favicon = "favicon.png"
-  hideEntryNavigation = false
   customCSS = ["css/custom.css"]
   customJS = ["js/custom.js"]
+  gopher = "" # used in 404 template ( Generator: https://gopherize.me )
+
+[params.copyright]
+  prefix = ""
+  holder = "tgmerge"
+  startYear = "2013"
+  suffix = ""
+
+[params.settings]
+  # date & time format: https://golang.org/pkg/time/
+  dateFormat = "2006-01-02"
+  listDateFormat = "2006-01-02"
+  hideEntryNavigation = false # boolean / array of sections
+  recentPostsLength = 5
   hideSocialMenu = false
-  showReadTime = true
+  showReadingTime = true
+  noTermCloudShuffle = false
+
+[params.opengraph.facebook]
+admins = [] # array of Facebook IDs
+appID = ""
+pageID = ""
+
+[params.opengraph.twitter]
+page = "tgmerge" # Twitter page username
 
 [params.seo]
   # Title Separator: - – — · • * ⋆ | ~ « » < >
   titleSeparator = "•"
 
-[params.opengraph]
-  [params.opengraph.facebook]
-    admins = ""
-    appid = ""
-
-[taxonomies]
-  category = "categories"
-  tag = "tags"
-
-[social]
-  facebook = ""
-
-[author]
-  name = "tgmerge"
-
-[author.social]
+[params.social]
   #codepen = "MunifTanjim"
   #facebook = "MunifTanjim"
   #email = "tgmgsp@gmail.com"
@@ -55,6 +71,13 @@ hasCJKLanguage = true
   #linkedin = "muniftanjim"
   love = "http://xiefan.me/"
 
+[params.social.config]
+  platforms = ["github","twitter","weibo","googleplus","love"]
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
 [permalinks]
   page = "/:slug/"
 
@@ -64,14 +87,9 @@ hasCJKLanguage = true
   #identifier = "about"
   #url = "/about/"
 
-# Language Configuration
-defaultContentLanguage = "zh-cn"
-
 [languages]
   # edit this block for your own language
   [languages.zh-cn]
     lang = "zh-cn"
     languageName = "Simplified Chinese"
     weight = 0
-
-
