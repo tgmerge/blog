@@ -44,8 +44,11 @@ hasCJKLanguage = true
   hideEntryNavigation = false # boolean / array of sections
   recentPostsLength = 5
   hideSocialMenu = false
-  showReadingTime = true
+  showReadingTime = false
   noTermCloudShuffle = false
+
+[params.sidebar]
+  enable = false
 
 [params.opengraph.facebook]
 admins = [] # array of Facebook IDs
