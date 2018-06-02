@@ -1,0 +1,17 @@
+<li class='item snap-list-item'>
+  {{ if (isset .Params "banner") }}
+    <a href='{{ .Permalink | relURL }}' class='snap-img' style="background-image: url('{{ .Params.banner }}')"></a>
+  {{ else }}
+    <a href='{{ .Permalink | relURL }}' class='snap-img' style="background-image: url('http://via.placeholder.com/900x300?text=no image')"></a>
+  {{ end }}
+  <div class='meta snap-meta'>
+    {{ partial "list/date" . }}
+  </div>
+  <header class='item-header snap-list-item-header'>
+    <h3 class='item-title'>
+      <a href='{{ .Permalink | relURL }}'>
+        {{- .Title -}}
+      </a>
+    </h3>
+  </header>
+</li>
